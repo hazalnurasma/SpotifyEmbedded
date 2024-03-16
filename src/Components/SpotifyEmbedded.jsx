@@ -3,6 +3,7 @@ import React from 'react';
 const SpotifyEmbedded = () => {
   return (
     <div>
+      <h2>Hazal</h2>
       <iframe
         title="Spotify Embed"
         src="https://open.spotify.com/embed/album/3BIiOsLIJBsH9UJYFRqfxs?utm_source=generator"
