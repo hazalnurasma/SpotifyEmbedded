@@ -1,4 +1,9 @@
 :root {
-  background-color: rgb(21, 21, 21);
+  /* background-color: rgb(21, 21, 21); */
   color: white;
+  height: 100vh;
+  background-color: rgb(44, 62, 48);
+  /* filter: blur(5px); */
+  background: url("../src/Assets/back.png");
+  background-size: cover;
 }
