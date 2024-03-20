@@ -1,13 +1,16 @@
 import React from 'react';
 import './SpotifyEmbedded.css';
-import './Navbar';
 import Navbar from './Navbar';
+import { Helmet } from 'react-helmet';
 
 const SpotifyEmbedded = () => {
   return (
-    
     <div className='spoti'>
     <Navbar />
+    <Helmet>
+      <title>Your Favorites</title>
+    </Helmet>
+
       <div className="titles">
 
         <h2 className='main-title'>Favorite Albums</h2>

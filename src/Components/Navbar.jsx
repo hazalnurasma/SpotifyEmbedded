@@ -1,8 +1,24 @@
 import React from 'react'
 import './Navbar.css';
 import logo from '../Assets/logo.png';
+import {useNavigate} from 'react-router-dom';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+
+  const handleGoHome = () => {
+    navigate("/HomePage");
+  };
+
+  const handleGoBlog = () => {
+    navigate("/BlogPage");
+  };
+
+  const handleGoSpoti = () => {
+    navigate("/SpotifyEmbedded");
+  };
+
   return (
     <> 
       <nav>
@@ -14,13 +30,13 @@ const Navbar = () => {
         <ul>
 
           <li>
-            <p>Home</p>
+            <p onClick={handleGoHome}>Home</p>
           </li>
           <li>
-            <p>Blog</p>
+            <p onClick={handleGoBlog}>Blog</p>
           </li>
           <li>
-            <p>Your Page</p>
+            <p onClick={handleGoSpoti}>Your Page</p>
           </li>
         </ul>
       </nav>
