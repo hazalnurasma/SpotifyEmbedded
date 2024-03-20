@@ -1,0 +1,28 @@
+body{
+    margin-top: 7rem;
+}
+
+
+.titles {
+    margin-left: 4rem;
+}
+
+.sec-title {
+    margin-top: 0.5rem;
+}
+
+.album {
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+.frame {
+    transition: 0.5s;
+}
+
+.frame:hover{
+    box-shadow: 1px 1px 10px 1px #b8b8b8;
+    transform: translateY(-0.2rem);
+}
